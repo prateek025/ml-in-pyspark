@@ -6,7 +6,7 @@
 - Currently 3 tutorial notebooks are available in this repository:
   1. `pyspark_regression.ipynb`
   2. `pyspark_classification.ipynb`
-  3. `databricks_regression.html`
+  3. `databricks_regression.dbc`
   
 ## II. Tutorial notebooks details
 
@@ -23,7 +23,7 @@
      - Different data transformation and NLP techniques(`lemmetizing`, `tf-idf` etc in this case) using PySpark functionalities(`pyspark.sql`, `pyspark.ml` in this case) are applied together for Text cleaning and pre-processing.
      - Classification model developement and tuning is performed under PySpark functionalities(`pyspark.ml.classification`, `pyspark.ml.tuning`, `pyspark.ml.evaluation` in this case).
 
-3. **`databricks_regression.html`**
+3. **`databricks_regression.dbc`**
      - This notebook covers developing a machine learning model in PySpark framework on Databricks.
      - Dataset used for analysis is [Sarah Gets a Diamond](http://store.darden.virginia.edu/sarah-gets-a-diamond) taken from University of Virginia, Darden Business Publishing. I have purposefully and randomly removed values from 30 rows for two different columns, so that different data transformation techniques in PySpark framework can be applied.
      - A regression model is developed on this dataset to calculate the price(Y variable) of a diamond based on its multiple physical attributes/features(X variables).
