@@ -29,6 +29,6 @@
      - A regression model is developed on this dataset to calculate the price(Y variable) of a diamond based on its multiple physical attributes/features(X variables).
      - Different data transformations, data imputation techniques, data aggregation using PySpark functionalities(`pyspark.sql`, `pyspark.ml` in this case) are applied for cleaning, imputing, pre-processing, and extracting summary statistics on model development data.
      - Regression model developement and tuning is performed using PySpark functionalities(`pyspark.ml.regression`, `pyspark.ml.tuning`, `pyspark.ml.evaluation` in this case).
-     - Two major additions in the workflow in `databricks_regression.html` that were absent in `pyspark_regression.ipynb` :
+     - Two major additions in the workflow in `databricks_regression.dbc` that were absent in `pyspark_regression.ipynb` :
        -  Using Databricks functionalities to write `SQL` queries using *magic commands* and plot graphs using inbuilt Databricks plotting functionalities 
        -  In this tutorial I have combined pre-processing and modelling steps into a single model pipeline.
